@@ -10,6 +10,7 @@ public class DemoController {
 
 	@GetMapping("/get")
 	public String getForm() {
+		System.out.println("Hii For Test....");
 		return "welcome";
 	}
 }
